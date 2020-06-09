@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Weather/static/css/main.ca7939e6.chunk.css",
+    "main.js": "/Weather/static/js/main.ffb7005a.chunk.js",
+    "main.js.map": "/Weather/static/js/main.ffb7005a.chunk.js.map",
+    "runtime-main.js": "/Weather/static/js/runtime-main.ab064488.js",
+    "runtime-main.js.map": "/Weather/static/js/runtime-main.ab064488.js.map",
+    "static/js/2.8e47e1d0.chunk.js": "/Weather/static/js/2.8e47e1d0.chunk.js",
+    "static/js/2.8e47e1d0.chunk.js.map": "/Weather/static/js/2.8e47e1d0.chunk.js.map",
+    "index.html": "/Weather/index.html",
+    "precache-manifest.da63aabb5a789aef1e15ba4b1fee216b.js": "/Weather/precache-manifest.da63aabb5a789aef1e15ba4b1fee216b.js",
+    "service-worker.js": "/Weather/service-worker.js",
+    "static/css/main.ca7939e6.chunk.css.map": "/Weather/static/css/main.ca7939e6.chunk.css.map",
+    "static/js/2.8e47e1d0.chunk.js.LICENSE.txt": "/Weather/static/js/2.8e47e1d0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Weather/static/media/thunder-weather.fdefeb52.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab064488.js",
+    "static/js/2.8e47e1d0.chunk.js",
+    "static/css/main.ca7939e6.chunk.css",
+    "static/js/main.ffb7005a.chunk.js"
+  ]
+}
