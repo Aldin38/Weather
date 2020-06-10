@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'montseratt', sans-serif;
+}
+
+.app{
+  background-image: url('./images/mobile/day/sunny-weather.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4s ease-out;
+}
+
+.app.dark-clear{
+  background-image: url('./images/mobile/night/mobile-clear-night.jpg');
+}
+
+.app.dark-snowy{
+  background-image: url('./images/mobile/night/mobile-snow-night.jpg');
+}
+.app.dark-rainy{
+  background-image: url('./images/mobile/night/mobile-rain-night.jpg');
+}
+.app.dark-clouds{
+  background-image: url('./images/mobile/night/mobile-clouds-night.jpg');
+}
+
+.app.snowy{
+background-image: url('./images/mobile/day/snowy-weather.jpg');
+}
+
+.app.rainy{
+  background-image:url('./images/mobile/day/rain-weather.jpg') ;
+}
+.app.thunder-rain{
+  background-image:url('./images/mobile/day/thunder-and-rain.jpg') ;
+}
+.app.thunder{
+  background-image:url('./images/mobile/day/thunder-weather.jpg') ;
+}
+.app.cloudy{
+  background-image:url('./images/mobile/day/cloudy.jpg') ;
+}
+
+
+
+.main{
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(0,0,0,0.2), rgb(0,0,0,0.75));
+ padding: 25px;
+}
+.search-box{
+  margin:0 0 75px;
+  width:100%;
+  
+}
+.search-box .search-bar{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  border:none;
+  outline:none;
+  border-color: rgba(255,255,255, 0.);
+  border-radius: 22px 22px 22px 22px ;
+  background-color: rgba(10,10,10,0.4);
+  margin-top:-15px;
+  box-shadow: 0px 5px rgba(0,0,0 0.2);
+  color: #000;
+  font-size: large;
+  transition: 0.4s ease;
+}
+.search-box .search-bar:focus:hover{
+  background-color: rgba(0, 0, 0, 0.9);
+  color:rgba(255,255,255, 0.7);
+}
+
+.location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+color: #fff;
+font-size: 20px;
+font-weight: 400;
+font-family: 'Cabin', sans-serif;
+text-align: center;
+text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box{
+  text-align: center;
+  
+}
+
+.weather-box .temp {
+  position: relative;
+  display:inline-block;
+  margin: 30px auto;
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 16px;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color:#fff;
+  font-size:48px;
+  font-weight: bolder;
+
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+@media only screen and (min-width: 700px ){
+
+
+  .app{
+    background-image: url('./images/desktop/day/desktop-sunny-day.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s ease-out;
+  }
+
+
+
+  .app.dark-clear{
+    background-image: url('./images/desktop/night/desktop-night-clear.jpg');
+  }
+  
+  .app.dark-snowy{
+    background-image: url('./images/desktop/night/snow-desktop-night.jpg');
+  }
+  .app.dark-rainy{
+    background-image: url('./images/desktop/night/desktop-rain-night.jpg');
+  }
+  .app.dark-clouds{
+    background-image: url('./images/desktop/night/desktop-coulds-night.jpg');
+  }
+  
+  .app.snowy{
+  background-image: url('./images/desktop/day/desktop-snow.jpg');
+  }
+  
+  .app.rainy{
+    background-image:url('./images/desktop/day/desktop-rain-day.jpg') ;
+  }
+  .app.thunder-rain{
+    background-image:url('./images/desktop/day/desktop-thunder-tain-day.jpg') ;
+  }
+  .app.thunder{
+    background-image:url('./images/desktop/day/desktop-thunder-tain-day.jpg') ;
+  }
+  .app.cloudy{
+    background-image:url('./images/desktop/day/desktop-clouds-day.jpg') ;
+  }
+  
+
+}
