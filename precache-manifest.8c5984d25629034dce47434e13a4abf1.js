@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a202af65e555783549767304e3514e0c",
+    "revision": "f3681bd9f96850990e4ec6765ce57f34",
     "url": "/Weather/index.html"
   },
   {
-    "revision": "de435114dd927ac3cb2c",
-    "url": "/Weather/static/css/main.b0705464.chunk.css"
+    "revision": "d9431ed715f7e8f0e0dc",
+    "url": "/Weather/static/css/main.dc0ee3a5.chunk.css"
   },
   {
     "revision": "5c2590b55bff6cd01ccb",
@@ -16,20 +16,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Weather/static/js/2.8e47e1d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "de435114dd927ac3cb2c",
-    "url": "/Weather/static/js/main.ffb7005a.chunk.js"
+    "revision": "d9431ed715f7e8f0e0dc",
+    "url": "/Weather/static/js/main.963bfedb.chunk.js"
   },
   {
     "revision": "0356e636dd9d77987dda",
     "url": "/Weather/static/js/runtime-main.ab064488.js"
   },
   {
+    "revision": "aa167354f58c55a1f8ff23df9c1e4e75",
+    "url": "/Weather/static/media/cloudy.aa167354.jpg"
+  },
+  {
     "revision": "95f5f688759be297c328cdd4609ea48a",
     "url": "/Weather/static/media/desktop-clouds-day.95f5f688.jpg"
   },
   {
-    "revision": "8363820b5fa43d1a11304b1937da6f16",
-    "url": "/Weather/static/media/desktop-clouds-night.8363820b.jpg"
+    "revision": "42f3451ae23967e390f757d82ef6f5d0",
+    "url": "/Weather/static/media/desktop-coulds-night.42f3451a.jpg"
+  },
+  {
+    "revision": "62687e616233963222b82648f5fbb24d",
+    "url": "/Weather/static/media/desktop-night-clear.62687e61.jpg"
   },
   {
     "revision": "9388a0bdd2901175fe2d480c9c013de6",
@@ -78,10 +86,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6b615c321c864552ad8b98a42c501e1d",
     "url": "/Weather/static/media/snowy-weather.6b615c32.jpg"
-  },
-  {
-    "revision": "1b0584b2466623bfefbc1f5a4b605914",
-    "url": "/Weather/static/media/sunny-weather-suljo.1b0584b2.jpg"
   },
   {
     "revision": "88a31020f8bee957fc9d68f81a08fbd2",
